@@ -1,0 +1,36 @@
+
+
+.form {
+  display: grid;
+  margin: var(--main-margin) * 4;
+  width: 433px;
+  /* Assuming media-max-width() translates to a media query for smaller screens */
+}
+
+input {
+  padding-left: 75px;
+}
+
+.input {
+  border: 1px solid #fff;
+  margin-top: var(--main-margin) * 2;
+}
+
+.loginBtn {
+  border: 2px solid var(--submit-color);
+  margin-top: var(--main-margin) * 5;
+  font-size: medium;
+  color: var(--submit-color);
+  opacity: 70%;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  opacity: 100%;
+}
+
+.icon {
+  position: absolute;
+  margin-top: var(--main-margin) * 3;
+  margin-left: var(--main-margin) * 2;
+}
